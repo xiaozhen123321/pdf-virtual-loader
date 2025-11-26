@@ -1,0 +1,116 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 24px;
+  background: #f0f2f5;
+  box-sizing: border-box;
+}
+
+.header {
+  max-width: 960px;
+  margin: 0 auto 24px;
+}
+
+.title {
+  margin: 0 0 16px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #222;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.urlRow {
+  display: flex;
+  gap: 8px;
+}
+
+.input {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.button {
+  padding: 0 16px;
+  border: none;
+  border-radius: 4px;
+  background: #1677ff;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #165fcb;
+}
+
+.divider {
+  text-align: center;
+  color: #999;
+  font-size: 12px;
+}
+
+.fileInput {
+  font-size: 14px;
+}
+
+.info {
+  font-size: 13px;
+  color: #555;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 16px 0;
+}
+
+.viewerWrapper {
+  width: 100%;
+  max-width: 960px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 300px;
+  border-radius: 8px;
+  border: 1px dashed #d9d9d9;
+  color: #999;
+  text-align: center;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.hint {
+  margin-top: 12px;
+  font-size: 13px;
+  color: #666;
+}
